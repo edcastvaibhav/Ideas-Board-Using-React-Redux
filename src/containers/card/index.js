@@ -11,7 +11,7 @@ class Card extends Component {
         super(props, context);
         this.state = {
             editing: false,
-            limit: 10,
+            limit: 50,
             totalCount: 0
         };
 
