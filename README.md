@@ -1,8 +1,8 @@
 Steps to setup locally:
 
-npm install
-npm start
-open http://localhost:8080/
+1. npm install
+2. npm start
+3. open http://localhost:3000/
 
 For Production build:
 
