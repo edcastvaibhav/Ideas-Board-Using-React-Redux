@@ -1,18 +1,13 @@
-Steps to run it on local: 
+Steps to setup locally:
 
-- Install Node(v6.9.5) & NPM
-- Go to the root directory 
-- npm install
-- npm start
-- Open http://localhost:3000 on your browser
+npm install
+npm start
+open http://localhost:8080/
 
-Steps to build it for production: 
+For Production build:
 
-- Install Node(v6.9.5) & NPM
-- Go to the root directory 
-- npm install
-- Run npm run build
-- Copy the files inside /build folder & upload them to your domain's root directory
+npm run build-prod
+Then the production build will be ready in /public folder.
+Demo Link: http://pharma.hariramjewellers.in/
 
-Steps to change the API base URL
-- open /src/index.js file & change the URL in the 12th line.
+#Used localstorage API to maintain the state.
